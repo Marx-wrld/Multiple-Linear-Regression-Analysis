@@ -91,3 +91,10 @@ heart.plot
 ```
 ![originaldata](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/23fa6453-f842-4740-af17-77bd1186df99)
 
+6. Adding the regression lines
+```
+heart.plot <- heart.plot +
+  geom_line(data=plotting.data, aes(x=biking, y=predicted.y, color=smoking), size=1.25)
+
+heart.plot
+```
