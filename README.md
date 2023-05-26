@@ -82,7 +82,7 @@ then run
 
 library(ggplot2) 
  
- then lastly 
+then lastly 
 
 heart.plot <- ggplot(heart.data, aes(x=biking, y=heart.disease)) +
   geom_point()
