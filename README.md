@@ -98,3 +98,5 @@ heart.plot <- heart.plot +
 
 heart.plot
 ```
+![regressionlines](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/d302b65e-2828-471c-ad47-642c4359ba25)
+
