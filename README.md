@@ -89,3 +89,5 @@ heart.plot <- ggplot(heart.data, aes(x=biking, y=heart.disease)) +
 
 heart.plot
 ```
+![originaldata](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/23fa6453-f842-4740-af17-77bd1186df99)
+
