@@ -26,5 +26,9 @@ hist(heart.data$heart.disease)
 plot(heart.disease ~ biking, data=heart.data)
 ```
 ![heartdisease-biking](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/d1d416a1-82d9-4c85-aa3e-335db0354b3e)
+
+```
+plot(heart.disease ~ smoking, data=heart.data)
+```
 ![heartdisease-smoking](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/e291b653-fefe-4176-acb8-d6e59ff32803)
 
