@@ -50,3 +50,5 @@ par(mfrow=c(2,2))
 plot(heart.disease.lm)
 par(mfrow=c(1,1))
 ```
+![homoscedasticity](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/e82bce39-8892-4bf1-b2e0-5f31aef7e3b5)
+
