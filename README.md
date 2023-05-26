@@ -7,7 +7,7 @@ A repo on how to perform multiple linear regression analysis. I have used a samp
 summary(head.data)
 ```
 
-### B. Ensuring our data meets the main assumptions
+### B. Ensuring that our data meets the main assumptions
 
 1. Independence of Observations - Using cors() function to check the relationship between our independent variables.
 
