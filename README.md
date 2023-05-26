@@ -119,3 +119,4 @@ heart.plot
 ```
 heart.plot + annotate(geom="text", x=30, y=1.75, label=" = 15 + (-0.2*biking) + (0.178*smoking)")
 ```
+![regrmodtograph](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/1587e540-faa8-4d69-9f22-2c6bb093b7b6)
