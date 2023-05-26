@@ -32,3 +32,12 @@ plot(heart.disease ~ smoking, data=heart.data)
 ```
 ![heartdisease-smoking](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/e291b653-fefe-4176-acb8-d6e59ff32803)
 
+#### Performing Linear Regression Analysis
+
+- Checking if there's a linear relationship between biking to work, smoking, and heart disease in our imaginary survey of 500 towns.
+
+```
+heart.disease.lm<-lm(heart.disease ~ biking + smoking, data = heart.data)
+
+summary(heart.disease.lm)
+```
