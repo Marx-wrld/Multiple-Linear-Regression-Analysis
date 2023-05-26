@@ -70,5 +70,22 @@ plotting.data$predicted.y <- predict.lm(heart.disease.lm, newdata=plotting.data)
 ```
 plotting.data$smoking <- round(plotting.data$smoking, digits = 2)
 ```
-4. Changing the smoking variable into a factor
+4. Changing the smoking variable into a factor - This allows us to plot the interaction between biking and heart disease at each of the three levels of smoking we chose.
+```
+plotting.data$smoking <- as.factor(plotting.data$smoking)
+```
+5. Plotting the original data
+```
+install.packages("ggplot2")
+
+then run
+
+library(ggplot2) 
+ 
+ then lastly 
+
+heart.plot <- ggplot(heart.data, aes(x=biking, y=heart.disease)) +
+  geom_point()
+
+heart.plot
 ```
