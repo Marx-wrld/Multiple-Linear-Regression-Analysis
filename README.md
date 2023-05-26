@@ -114,3 +114,8 @@ heart.plot
 ```
 ![publication](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/363d1349-e149-44eb-8603-025f5fef8adb)
 
+** Adding our regression model to the graph
+
+```
+heart.plot + annotate(geom="text", x=30, y=1.75, label=" = 15 + (-0.2*biking) + (0.178*smoking)")
+```
