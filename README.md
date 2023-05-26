@@ -52,3 +52,14 @@ par(mfrow=c(1,1))
 ```
 ![homoscedasticity](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/e82bce39-8892-4bf1-b2e0-5f31aef7e3b5)
 
+### E. Visualizing the results with a graph
+
+- Plotting the relationship between biking and heart disease at different levels of smoking. Smoking will be treated as a factor with three levels, just for the purposes of displaying the relationships in our data.
+
+1. Creating a new dataframe with the information needed to plot the model
+```
+plotting.data<-expand.grid(
+  biking = seq(min(heart.data$biking), max(heart.data$biking), length.out=30),
+    smoking=c(min(heart.data$smoking), mean(heart.data$smoking), max(heart.data$smoking)))
+```
+
