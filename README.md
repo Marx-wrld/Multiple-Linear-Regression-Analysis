@@ -100,3 +100,17 @@ heart.plot
 ```
 ![regressionlines](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/d302b65e-2828-471c-ad47-642c4359ba25)
 
+7. Making the graph ready for publication
+```
+heart.plot <-
+heart.plot +
+  theme_bw() +
+  labs(title = "Rates of heart disease (% of population) \n as a function of biking to work and smoking",
+      x = "Biking to work (% of population)",
+      y = "Heart disease (% of population)",
+      color = "Smoking \n (% of population)")
+
+heart.plot
+```
+![publication](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/363d1349-e149-44eb-8603-025f5fef8adb)
+
