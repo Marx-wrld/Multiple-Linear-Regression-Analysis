@@ -56,10 +56,19 @@ par(mfrow=c(1,1))
 
 - Plotting the relationship between biking and heart disease at different levels of smoking. Smoking will be treated as a factor with three levels, just for the purposes of displaying the relationships in our data.
 
-1. Creating a new dataframe with the information needed to plot the model
+1. Creating a new dataframe with the information needed to plot the model - This will not create anything new in your console, but you should see a new data frame appear in the Environment tab. Click on it to view it.
 ```
 plotting.data<-expand.grid(
   biking = seq(min(heart.data$biking), max(heart.data$biking), length.out=30),
     smoking=c(min(heart.data$smoking), mean(heart.data$smoking), max(heart.data$smoking)))
 ```
-
+2. Predicting the values of heart disease based on our linear model - Saving our ‘predicted y’ values as a new column in the dataset we've created
+```
+plotting.data$predicted.y <- predict.lm(heart.disease.lm, newdata=plotting.data)
+```
+3. Rounding the smoking numbers to two decimal values - This will make the legend easier to read later on.
+```
+plotting.data$smoking <- round(plotting.data$smoking, digits = 2)
+```
+4. Changing the smoking variable into a factor
+```
