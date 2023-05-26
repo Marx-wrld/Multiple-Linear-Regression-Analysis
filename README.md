@@ -42,3 +42,11 @@ heart.disease.lm<-lm(heart.disease ~ biking + smoking, data = heart.data)
 summary(heart.disease.lm)
 ```
 ### Checking for Homoscedasticity
+
+- Before proceeding with data visualization, we need to ensure that our models fit the homoscedasticity assumption of the linear model.
+
+```
+par(mfrow=c(2,2))
+plot(heart.disease.lm)
+par(mfrow=c(1,1))
+```
