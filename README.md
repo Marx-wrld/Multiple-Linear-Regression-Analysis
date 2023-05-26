@@ -41,3 +41,4 @@ heart.disease.lm<-lm(heart.disease ~ biking + smoking, data = heart.data)
 
 summary(heart.disease.lm)
 ```
+#### Checking for Homoscedasticity
