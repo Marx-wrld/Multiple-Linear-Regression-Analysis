@@ -121,6 +121,6 @@ heart.plot + annotate(geom="text", x=30, y=1.75, label=" = 15 + (-0.2*biking) + 
 ```
 ![regrmodtograph](https://github.com/Marx-wrld/Multiple-Linear-Regression-Analysis/assets/105711066/1587e540-faa8-4d69-9f22-2c6bb093b7b6)
 
-### F. Reoprting our results
+### F. Reporting our results
 
 - In our survey of 500 towns, we found significant relationships between the frequency of biking to work and the frequency of heart disease and the frequency of smoking and frequency of heart disease (p < 0 and p < 0.001, respectively). Specifically we found a 0.2% decrease (± 0.0014) in the frequency of heart disease for every 1% increase in biking, and a 0.178% increase (± 0.0035) in the frequency of heart disease for every 1% increase in smoking.
